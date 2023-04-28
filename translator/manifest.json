@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+	"name": "Email Translator",
+	"description": "A basic email translator extenson",
+	"version": "1.0",
+	"author": "Reuben Sinha",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "reubensinha@gmail.com",
+			"strict_min_version": "78.0"
+		}
+	},
+	"message_display_action": {
+		"default_popup": "messagePopup/popup.html",
+		"default_title": "Translate this message",
+		"default_icon": "images/internet-32px.png",
+		"default_label": "Translate"
+	},
+	"icons": {
+		"64": "images/internet.png",
+		"32": "images/internet-32px.png",
+		"16": "images/internet-16px.png"
+	},
+	"permissions": [
+		"messagesRead"
+	]
+}
